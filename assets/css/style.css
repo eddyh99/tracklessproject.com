@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:'orbitron';
+    overflow-x:hidden;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration:none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.removecolor {
+    background-color: rgba(13, 13, 13, 0);
+}
+
+/**** Font Style ****/
+.f-almarai{
+    font-family:"Almarai";
+    line-height:20px;
+}
+
+.f-poppins{
+    font-family:"Poppins";
+    line-height:20px;
+}
+
+.f-inter{
+    font-family:"Inter";
+    line-height:20px;
+}
+
+/*----------- Others -------------*/
+
+.btngreen{
+    font-family:"Inter";
+    background: #1AA37A;
+    box-shadow: 0px 10px 40px rgba(157, 255, 179, 0.2);
+    border-radius: 20px;
+    color:black;
+    width:200px;
+}
+
+.btngreen:hover{
+    font-family:"Inter";
+    background: #1AA37A;
+    box-shadow: 0px 10px 40px rgba(157, 255, 179, 0.2);
+    border-radius: 20px;
+    color:black;
+    width:200px;
+}
+
+.greentext{
+    color:#00DD9C;
+}
