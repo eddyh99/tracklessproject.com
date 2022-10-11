@@ -60,7 +60,6 @@ a:active {
     box-shadow: 0px 10px 40px rgba(157, 255, 179, 0.2);
     border-radius: 20px;
     color: black;
-    width: 200px;
 }
 
 .btngreen:hover {
@@ -69,13 +68,19 @@ a:active {
     box-shadow: 0px 10px 40px rgba(157, 255, 179, 0.2);
     border-radius: 20px;
     color: black;
-    width: 200px;
 }
 
 .greentext {
     color: #00DD9C;
 }
 
+.btn-back-green {
+    border: none;
+    border-radius: 100px;
+    background: #00DD9C !important;
+    color: #fff !important;
+    padding: 1.45rem 1rem;
+}
 
 
 
@@ -189,15 +194,6 @@ img.carousel {
     z-index: 0;
 }
 
-#item-1:checked~.cards #song-1 img,
-#item-2:checked~.cards #song-2 img,
-#item-3:checked~.cards #song-3 img,
-#item-4:checked~.cards #song-4 img,
-#item-5:checked~.cards #song-5 img,
-#item-6:checked~.cards #song-6 img {
-    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-}
-
 .player {
     background-color: #fff;
     border-radius: 8px;
@@ -287,7 +283,159 @@ img.carousel {
     transform: translateY(-80px);
 }
 
+.carousel__control {
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    top: 50%;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    border-width: 5px 5px 0 0;
+    border-style: solid;
+    border-color: #00DD9C;
+    opacity: 0.35;
+    outline: 0;
+    z-index: 3;
+}
+
+.carousel__control:hover {
+    opacity: 1;
+}
+
+.btn-back {
+    height: 25px;
+    width: 25px;
+    border-width: 5px 5px 0 0;
+    border-style: solid;
+    border-color: #00DD9C;
+    left: 10px;
+    transform: rotate(-135deg);
+}
+
+.carousel__control--backward {
+    left: 10px;
+    transform: rotate(-135deg);
+}
+
+.carousel__control--forward {
+    right: 10px;
+    transform: rotate(45deg);
+}
+
+#item-1:checked~.cards #song-6 .carousel__controls,
+#item-1:checked~.cards #song-2 .carousel__controls,
+#item-2:checked~.cards #song-1 .carousel__controls,
+#item-2:checked~.cards #song-3 .carousel__controls,
+#item-3:checked~.cards #song-2 .carousel__controls,
+#item-3:checked~.cards #song-4 .carousel__controls,
+#item-4:checked~.cards #song-3 .carousel__controls,
+#item-4:checked~.cards #song-5 .carousel__controls,
+#item-5:checked~.cards #song-4 .carousel__controls,
+#item-5:checked~.cards #song-6 .carousel__controls,
+#item-6:checked~.cards #song-5 .carousel__controls,
+#item-6:checked~.cards #song-1 .carousel__controls {
+    display: none;
+}
+
+.font-carousel {
+    line-height: 3vw;
+}
+
 /* Carousel */
+
+@media only screen and (max-width: 411px) {
+    .slider-responsive {
+        font-size: 12px !important;
+    }
+
+    .f-almarai>.text-center>a {
+        font-size: 11px;
+    }
+
+    .iframe-responsive {
+        height: 20vw !important;
+        width: 35vw !important;
+    }
+
+    .img-lock {
+        height: 30px !important;
+    }
+
+    .font-lock {
+        font-size: 7px !important;
+    }
+
+    .card-special-responsive {
+        height: 200px !important;
+    }
+
+    .font-carousel {
+        font-size: 6px !important;
+    }
+
+    .card-carousel {
+        height: auto !important;
+    }
+
+    .body-carousel {
+        height: 250px !important;
+    }
+
+    .btngreen {
+        width: auto;
+        min-width: 100px;
+    }
+
+    .text-footer .t-bottom {
+        font-size: 7px !important;
+    }
+
+    .text-footer .t-contact {
+        font-size: 12px !important;
+    }
+
+    .carousel__control {
+        height: 20px;
+        width: 20px;
+    }
+
+    .carousel__control--backward {
+        left: 15px;
+    }
+
+    .carousel__control--forward {
+        right: 15px;
+    }
+
+    .icon-sosmed img {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    #item-1:checked~.cards #song-6,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2,
+    #item-4:checked~.cards #song-3,
+    #item-5:checked~.cards #song-4,
+    #item-6:checked~.cards #song-5 {
+        transform: translatex(-40%) scale(0.8);
+        opacity: 0;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-4,
+    #item-4:checked~.cards #song-5,
+    #item-5:checked~.cards #song-6,
+    #item-6:checked~.cards #song-1 {
+        transform: translatex(40%) scale(0.8);
+        opacity: 0;
+        z-index: 0;
+    }
+
+}
 
 @media only screen and (min-width: 412px) {
     .slider-responsive {
@@ -320,11 +468,11 @@ img.carousel {
     }
 
     .card-carousel {
-        height: 200px !important;
+        height: auto !important;
     }
 
     .body-carousel {
-        height: 200px !important;
+        height: 250px !important;
     }
 
     .btngreen {
@@ -340,9 +488,44 @@ img.carousel {
         font-size: 12px !important;
     }
 
+    .carousel__control {
+        height: 20px;
+        width: 20px;
+    }
+
+    .carousel__control--backward {
+        left: 15px;
+    }
+
+    .carousel__control--forward {
+        right: 15px;
+    }
+
     .icon-sosmed img {
         height: 25px !important;
         width: 25px !important;
+    }
+
+    #item-1:checked~.cards #song-6,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2,
+    #item-4:checked~.cards #song-3,
+    #item-5:checked~.cards #song-4,
+    #item-6:checked~.cards #song-5 {
+        transform: translatex(-40%) scale(0.8);
+        opacity: 0;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-4,
+    #item-4:checked~.cards #song-5,
+    #item-5:checked~.cards #song-6,
+    #item-6:checked~.cards #song-1 {
+        transform: translatex(40%) scale(0.8);
+        opacity: 0;
+        z-index: 0;
     }
 
 }
@@ -369,11 +552,11 @@ img.carousel {
     }
 
     .card-carousel {
-        height: 350px !important;
+        height: 400px !important;
     }
 
     .body-carousel {
-        height: 350px !important;
+        height: 400px !important;
     }
 
     .btngreen {
@@ -387,6 +570,46 @@ img.carousel {
 
     .text-footer .t-contact {
         font-size: 22px !important;
+    }
+
+    .carousel__control {
+        height: 25px;
+        width: 25px;
+    }
+
+    .carousel__control--backward {
+        left: 2vh;
+    }
+
+    .carousel__control--forward {
+        right: 2vh;
+    }
+
+    .icon-sosmed img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    #item-1:checked~.cards #song-6,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2,
+    #item-4:checked~.cards #song-3,
+    #item-5:checked~.cards #song-4,
+    #item-6:checked~.cards #song-5 {
+        transform: translatex(-40%) scale(0.8);
+        opacity: 0.4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-4,
+    #item-4:checked~.cards #song-5,
+    #item-5:checked~.cards #song-6,
+    #item-6:checked~.cards #song-1 {
+        transform: translatex(40%) scale(0.8);
+        opacity: 0.4;
+        z-index: 0;
     }
 }
 
@@ -412,11 +635,11 @@ img.carousel {
     }
 
     .card-carousel {
-        height: 500px !important;
+        height: 600px !important;
     }
 
     .body-carousel {
-        height: 500px !important;
+        height: 600px !important;
     }
 
     .text-footer .t-bottom {
@@ -425,5 +648,23 @@ img.carousel {
 
     .text-footer .t-contact {
         font-size: 36px !important;
+    }
+
+    .carousel__control {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel__control--backward {
+        left: 4vh;
+    }
+
+    .carousel__control--forward {
+        right: 4vh;
+    }
+
+    .icon-sosmed img {
+        height: 50px !important;
+        width: 50px !important;
     }
 }

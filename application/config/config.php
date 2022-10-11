@@ -24,7 +24,7 @@ ob_start();
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://tracklessproject.com/';
+$config['base_url'] = 'http://localhost/tracklessproject.com/';
 date_default_timezone_set('Asia/Singapore');
 
 /*

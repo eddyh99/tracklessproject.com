@@ -1,4 +1,4 @@
-<div class="wrapper"  style="background:#000">
+<div class="wrapper" style="background:#000">
     <div class="card nopadding removecolor">
         <img src="<?=base_url()?>assets/images/abovebanner.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay">
@@ -35,19 +35,19 @@
             <div class="row mt-4 mt-md-0 mt-sm-0">
                 <div class="col-12 text-center greentext slider-responsive" style="font-size:3.5vw;font-weight:700">
                     Our privacy <span class="text-white">is being attacked<br> on multiple fronts...</span>
-                    <br>Protect your anonimity 
+                    <br>Protect your anonimity
                     <br><span class="text-white">with</span>
                 </div>
                 <div class="col-12 text-center">
                     <img src="<?=base_url()?>assets/images/Group1000002746.png" class="img-fluid col-6 col-md-4">
                 </div>
-                <div class="col-12 text-center mt-3">
+                <!-- <div class="col-12 text-center mt-3">
                     <div class="container">
                         <div class="m-auto">
                             <iframe class="iframe-responsive" style="height:25vw;width: 50vw;" src="https://www.youtube.com/embed/mrm50KbvGnk" title="YouTube Music: Open the world of music. It's all here." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -56,16 +56,19 @@
         <div class="card-img-overlay p-2">
             <div class="row justify-content-center">
                 <div class="col-7 text-center mt-2 mt-md-3 mt-lg-5">
-                    <span style="font-size:3.5vw">Mission</span>
+                    <span style="font-size:3.5vw;font-weight: bold;">Mission</span>
                 </div>
                 <div class="col-7 mt-3 mt-md-3 mt-lg-5 text-center">
-                    <img src="<?=base_url()?>assets/images/lock.png" class="img-lock">
+                    <img src="<?=base_url()?>assets/images/lock.png" class="img-fluid img-lock">
                 </div>
                 <div class="col-10 col-md-7 col-lg-7 text-center mt-3 mt-md-3 mt-lg-5 f-poppins font-lock">
-                    Privacy, Security, Financial Anonymity, Management and Anonymous Custody of Crypto, and Low Taxation, are the main points  of Trackless project.                    
+                    Privacy, Security, Financial Anonymity, Management and Anonymous Custody of Crypto, and Low
+                    Taxation, are the main points of Trackless project.
                 </div>
                 <div class="col-7 mt-3 mt-md-3 mt-lg-5 text-center">
-                    <a href="#" class="btn btngreen" style="font-size:1vw">Guide Line</a>
+                    <a href="<?= base_url('auth/guideline'); ?>" class="btn btngreen"
+                        style="font-size:1.5vw;font-weight: bold;">Guide
+                        Line</a>
                 </div>
             </div>
         </div>
@@ -75,7 +78,7 @@
         <div class="card-img-overlay">
             <div class="row">
                 <div class="col-12 text-center mt-0 mt-md-3 mt-lg-5">
-                    <span style="font-size:3.5vw">Services</span>
+                    <span style="font-size:3.5vw;font-weight: bold;">Services</span>
                 </div>
             </div>
         </div>
@@ -84,22 +87,29 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-1"><img src="<?=base_url()?>assets/images/tc-mail-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-1"><img src="<?=base_url()?>assets/images/tc-mail-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-4"><img src="<?=base_url()?>assets/images/tc-chat-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-4"><img src="<?=base_url()?>assets/images/tc-chat-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-5"><img src="<?=base_url()?>assets/images/tc-company-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-5"><img
+                            src="<?=base_url()?>assets/images/tc-company-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-2"><img src="<?=base_url()?>assets/images/tc-bank-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-2"><img src="<?=base_url()?>assets/images/tc-bank-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-3"><img src="<?=base_url()?>assets/images/tc-crypto-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-3"><img src="<?=base_url()?>assets/images/tc-crypto-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-6"><img src="<?=base_url()?>assets/images/tc-money-new.png" class="img-fluid"></label>
+                    <label class="cursor-pointer" for="item-6"><img src="<?=base_url()?>assets/images/tc-money-new.png"
+                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
             </div>
         </div>
@@ -119,8 +129,11 @@
                     <input type="radio" name="slider" id="item-6">
 
                     <div class="cards">
-
                         <label class="card-carousel" for="item-1" id="song-1">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-6"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-2"></label>
+                            </div>
                             <div class="row">
                                 <div class="col-12">
                                     <img src="<?=base_url()?>assets/images/tc-mail-new.png" class="img-fluid col-5">
@@ -128,106 +141,140 @@
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Protect your privacy and your anonimity thanks to TracklessMail. 
-                                                Open your untrackable anonimous mail in few easy steps.
+                                            Protect your privacy and your anonimity thanks to <span
+                                                class="greentext">TracklessMail</span>.
+                                            Open your untrackable anonimous mail in few easy steps.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
 
                         <label class="card-carousel" for="item-2" id="song-2">
-                        <div class="row">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-1"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-3"></label>
+                            </div>
+                            <div class="row">
                                 <div class="col-12">
                                     <img src="<?=base_url()?>assets/images/tc-bank-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Create your online bank for free thanks to the integrated TracklessBank technology, and replace the old banking institution.
-                                                Eliminate reliance on old-fashioned and restrictive banking systems.
+                                            Create your online bank for free thanks to the integrated <span
+                                                class="greentext">TracklessBank</span>
+                                            technology, and replace the old banking institution.
+                                            Eliminate reliance on old-fashioned and restrictive banking systems.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
-                        
+
                         <label class="card-carousel" for="item-3" id="song-3">
-                        <div class="row">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-2"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-4"></label>
+                            </div>
+                            <div class="row">
                                 <div class="col-12">
                                     <img src="<?=base_url()?>assets/images/tc-crypto-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Open your own crypto exchange for free and give to your customers the opportunity to secure, buy, sell and exchange crypto with FIAT, anonymously without KYC and AML
+                                            Open your own crypto exchange for free and give to your customers the
+                                            opportunity to secure, buy, sell and exchange crypto with FIAT, anonymously
+                                            without KYC and AML
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
 
                         <label class="card-carousel" for="item-4" id="song-4">
-                        <div class="row">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-3"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-5"></label>
+                            </div>
+                            <div class="row">
                                 <div class="col-12">
                                     <img src="<?=base_url()?>assets/images/tc-chat-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Communicate and interact with your contact using TracklessChat, a messaging DApp that can be connected to any wallet powered by TracklessMoney.
-No trackable, decentralized, and distributed that guarantees your privacy
+                                            Communicate and interact with your contact using <span
+                                                class="greentext">TracklessChat</span>, a messaging
+                                            DApp that can be connected to any wallet powered by TracklessMoney.
+                                            No trackable, decentralized, and distributed that guarantees your privacy
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
-                        
+
                         <label class="card-carousel" for="item-5" id="song-5">
-                        <div class="row">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-4"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-6"></label>
+                            </div>
+                            <div class="row">
                                 <div class="col-12">
                                     <img src="<?=base_url()?>assets/images/tc-company-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Open your offshore company remotely  obtaining anonimity and low flat taxation
+                                            Open your offshore company remotely obtaining anonimity and low flat
+                                            taxation
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
 
                         <label class="card-carousel" for="item-6" id="song-6">
-                        <div class="row">
+                            <div class="carousel__controls">
+                                <label class="carousel__control carousel__control--backward" for="item-5"></label>
+                                <label class="carousel__control carousel__control--forward" for="item-1"></label>
+                            </div>
+                            <div class="row">
                                 <div class="col-12">
-                                <img src="<?=base_url()?>assets/images/tc-money-new.png" class="img-fluid col-5">
+                                    <img src="<?=base_url()?>assets/images/tc-money-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        TracklessMoney is a powerful and secure, anonymous, multi-currency, metaverse-optimized collection and payment gateway that you can easily integrate into your online business via API or Plugin.
-TracklessProject partners are able to realize, in a personalized way and that satisfies your requests, any online business idea with integrated a payment gateway.
+                                            <span class="greentext">TracklessMoney</span> is a powerful and secure,
+                                            anonymous, multi-currency,
+                                            metaverse-optimized collection and payment gateway that you can easily
+                                            integrate into your online business via API or Plugin.
+                                            <span class="greentext">TracklessProject</span> partners are able to
+                                            realize, in a personalized way and
+                                            that satisfies your requests, any online business idea with integrated a
+                                            payment gateway.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1vw">Enter</a>
+                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -240,7 +287,7 @@ TracklessProject partners are able to realize, in a personalized way and that sa
 
     <div class="card removecolor">
         <div class="card-body">
-            <div class="row m-5 text-footer">
+            <div class="row m-2 m-md-5 text-footer">
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12">
@@ -248,30 +295,26 @@ TracklessProject partners are able to realize, in a personalized way and that sa
                         </div>
                         <div class="col-12 icon-sosmed">
                             <div class="row mt-3">
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/fb-icon.png" class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/fb-icon.png" class="p-1">
                                 </div>
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/twitter-icon.png"  class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/twitter-icon.png" class="p-1">
                                 </div>
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/ig-icon.png"  class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/ig-icon.png" class="p-1">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-12 icon-sosmed">
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/c-icon.png"  class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/c-icon.png" class="p-1">
                                 </div>
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/linkedin-icon.png" class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/linkedin-icon.png" class="p-1">
                                 </div>
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/tiktok-icon.png" class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/tiktok-icon.png" class="p-1">
                                 </div>
-                                <div class="col-2">
-                                    <img src="<?=base_url()?>assets/images/youtube-icon.png" class="p-1" width="41px" height="41px">
+                                <div class="col-2 m-md-2 m-lg-2">
+                                    <img src="<?=base_url()?>assets/images/youtube-icon.png" class="p-1">
                                 </div>
                             </div>
                         </div>
@@ -284,7 +327,8 @@ TracklessProject partners are able to realize, in a personalized way and that sa
                     Contact Us
                 </div>
                 <div class="col-12 text-end f-inter t-bottom" style="font-size:2vh" translate="no">
-                    TracklessProject | TracklessMail | TracklessChat | TracklessCompany | TracklessBank | TracklessCrypto | TracklessMoney
+                    TracklessProject | TracklessMail | TracklessChat | TracklessCompany | TracklessBank |
+                    TracklessCrypto | TracklessMoney
                 </div>
             </div>
         </div>
@@ -293,6 +337,6 @@ TracklessProject partners are able to realize, in a personalized way and that sa
 
 <style>
 .carousel-indicators {
-    display:none;
+    display: none;
 }
 </style>
