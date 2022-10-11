@@ -346,7 +346,7 @@ img.carousel {
 
 @media only screen and (max-width: 411px) {
     .slider-responsive {
-        font-size: 12px !important;
+        font-size: 18px !important;
     }
 
     .f-almarai>.text-center>a {
@@ -363,7 +363,7 @@ img.carousel {
     }
 
     .font-lock {
-        font-size: 7px !important;
+        font-size: 10px !important;
     }
 
     .card-special-responsive {
@@ -371,7 +371,7 @@ img.carousel {
     }
 
     .font-carousel {
-        font-size: 6px !important;
+        font-size: 8px !important;
     }
 
     .card-carousel {
@@ -434,12 +434,28 @@ img.carousel {
         opacity: 0;
         z-index: 0;
     }
+    
+    .card-carousel {
+        position: absolute;
+        width: 90%;
+        height: 500px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0 2rem;
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        border: 2px solid #00DD9C;
+        border-radius: 40px;
+        background: #000;
+    }
+    
 
 }
 
 @media only screen and (min-width: 412px) {
     .slider-responsive {
-        font-size: 12px !important;
+        font-size: 2.5vh !important;
     }
 
     .f-almarai>.text-center>a {
@@ -456,7 +472,7 @@ img.carousel {
     }
 
     .font-lock {
-        font-size: 7px !important;
+        font-size: 10px !important;
     }
 
     .card-special-responsive {
@@ -464,7 +480,7 @@ img.carousel {
     }
 
     .font-carousel {
-        font-size: 6px !important;
+        font-size: 8px !important;
     }
 
     .card-carousel {
@@ -526,13 +542,28 @@ img.carousel {
         transform: translatex(40%) scale(0.8);
         opacity: 0;
         z-index: 0;
+    }
+
+    .card-carousel {
+        position: absolute;
+        width: 90%;
+        height: 500px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0 2rem;
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        border: 2px solid #00DD9C;
+        border-radius: 40px;
+        background: #000;
     }
 
 }
 
 @media only screen and (min-width: 810px) {
     .slider-responsive {
-        font-size: 24px !important;
+        font-size: 4.5vh !important;
     }
 
     .img-lock {
@@ -615,7 +646,7 @@ img.carousel {
 
 @media only screen and (min-width: 1280px) {
     .slider-responsive {
-        font-size: 52px !important;
+        font-size: 9vh !important;
     }
 
     .img-lock {
@@ -624,6 +655,7 @@ img.carousel {
 
     .font-lock {
         font-size: 22px !important;
+        line-height:32px;
     }
 
     .font-carousel {
