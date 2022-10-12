@@ -25,4 +25,12 @@ class Auth extends CI_Controller {
 		);
 		$this->load->view('layout/wrapper', $data);
 	}
+	public function translate()
+	{
+        $data = array(
+            'title'     => 'Trackless Project - Translate',
+            'content'   => 'home/translate',
+		);
+		$this->load->view('layout/wrapper', $data);
+	}
 }

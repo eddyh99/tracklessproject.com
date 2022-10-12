@@ -82,10 +82,24 @@ a:active {
     padding: 1.45rem 1rem;
 }
 
+.translate-link {
+    color: #fff;
+    text-decoration: underline #fff !important;
+}
+
+.translate-link:hover {
+    color: #fff;
+}
+
+.translate-text {
+    width: 50%;
+    max-width: 810px;
+    margin: auto;
+    font-size: 24pt;
+}
 
 
 /* Carousel */
-
 
 input[type=radio] {
     display: none;
@@ -375,6 +389,7 @@ img.carousel {
     }
 
     .card-carousel {
+        width: 90% !important;
         height: auto !important;
     }
 
@@ -419,7 +434,7 @@ img.carousel {
     #item-4:checked~.cards #song-3,
     #item-5:checked~.cards #song-4,
     #item-6:checked~.cards #song-5 {
-        transform: translatex(-40%) scale(0.8);
+        transform: translatex(0%) scale(0.8);
         opacity: 0;
         z-index: 0;
     }
@@ -430,10 +445,11 @@ img.carousel {
     #item-4:checked~.cards #song-5,
     #item-5:checked~.cards #song-6,
     #item-6:checked~.cards #song-1 {
-        transform: translatex(40%) scale(0.8);
+        transform: translatex(0%) scale(0.8);
         opacity: 0;
         z-index: 0;
     }
+<<<<<<< HEAD
     
     .card-carousel {
         position: absolute;
@@ -451,6 +467,8 @@ img.carousel {
     }
     
 
+=======
+>>>>>>> frontend-tracklessproject.com
 }
 
 @media only screen and (min-width: 412px) {
@@ -484,6 +502,7 @@ img.carousel {
     }
 
     .card-carousel {
+        width: 90%;
         height: auto !important;
     }
 
@@ -528,7 +547,7 @@ img.carousel {
     #item-4:checked~.cards #song-3,
     #item-5:checked~.cards #song-4,
     #item-6:checked~.cards #song-5 {
-        transform: translatex(-40%) scale(0.8);
+        transform: translatex(0%) scale(0.8);
         opacity: 0;
         z-index: 0;
     }
@@ -539,11 +558,12 @@ img.carousel {
     #item-4:checked~.cards #song-5,
     #item-5:checked~.cards #song-6,
     #item-6:checked~.cards #song-1 {
-        transform: translatex(40%) scale(0.8);
+        transform: translatex(0%) scale(0.8);
         opacity: 0;
         z-index: 0;
     }
 
+<<<<<<< HEAD
     .card-carousel {
         position: absolute;
         width: 90%;
@@ -559,6 +579,28 @@ img.carousel {
         background: #000;
     }
 
+=======
+    .translate-text {
+        width: 100%;
+        max-width: 810px;
+        margin: auto;
+        font-size: 12pt;
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+    .body-carousel {
+        height: 300px !important;
+    }
+
+    .translate-text {
+        width: 75%;
+        max-width: 810px;
+        margin: auto;
+        font-size: 24pt;
+    }
+>>>>>>> frontend-tracklessproject.com
 }
 
 @media only screen and (min-width: 810px) {
@@ -583,6 +625,7 @@ img.carousel {
     }
 
     .card-carousel {
+        width: 60% !important;
         height: 400px !important;
     }
 
@@ -642,6 +685,13 @@ img.carousel {
         opacity: 0.4;
         z-index: 0;
     }
+
+    .translate-text {
+        width: 75%;
+        max-width: 810px;
+        margin: auto;
+        font-size: 24pt;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -655,7 +705,11 @@ img.carousel {
 
     .font-lock {
         font-size: 22px !important;
+<<<<<<< HEAD
         line-height:32px;
+=======
+        line-height: 32px;
+>>>>>>> frontend-tracklessproject.com
     }
 
     .font-carousel {
