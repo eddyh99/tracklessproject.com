@@ -360,7 +360,7 @@ img.carousel {
 
 @media only screen and (max-width: 411px) {
     .slider-responsive {
-        font-size: 18px !important;
+        font-size: 3vw !important;
     }
 
     .f-almarai>.text-center>a {
@@ -468,7 +468,7 @@ img.carousel {
 
 @media only screen and (min-width: 412px) {
     .slider-responsive {
-        font-size: 2.5vh !important;
+        font-size: 3vw !important;
     }
 
     .f-almarai>.text-center>a {
@@ -587,6 +587,10 @@ img.carousel {
         height: 300px !important;
     }
 
+    .card-special-responsive {
+        height: auto !important;
+    }
+
     .translate-text {
         width: 75%;
         max-width: 810px;
@@ -597,7 +601,7 @@ img.carousel {
 
 @media only screen and (min-width: 810px) {
     .slider-responsive {
-        font-size: 4.5vh !important;
+        font-size: 3.5vw !important;
     }
 
     .img-lock {
@@ -688,7 +692,7 @@ img.carousel {
 
 @media only screen and (min-width: 1280px) {
     .slider-responsive {
-        font-size: 9vh !important;
+        font-size: 3.5vw !important;
     }
 
     .img-lock {
@@ -714,6 +718,63 @@ img.carousel {
 
     .body-carousel {
         height: 600px !important;
+    }
+
+    .text-footer .t-bottom {
+        font-size: 16px !important;
+    }
+
+    .text-footer .t-contact {
+        font-size: 36px !important;
+    }
+
+    .carousel__control {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel__control--backward {
+        left: 4vh;
+    }
+
+    .carousel__control--forward {
+        right: 4vh;
+    }
+
+    .icon-sosmed img {
+        height: 50px !important;
+        width: 50px !important;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .slider-responsive {
+        font-size: 4vw !important;
+    }
+
+    .img-lock {
+        height: 100px !important;
+    }
+
+    .font-lock {
+        font-size: 22px !important;
+        line-height: 32px;
+    }
+
+    .font-carousel {
+        font-size: 16px !important;
+    }
+
+    .card-special-responsive {
+        height: auto !important;
+    }
+
+    .card-carousel {
+        height: 700px !important;
+    }
+
+    .body-carousel {
+        height: 700px !important;
     }
 
     .text-footer .t-bottom {

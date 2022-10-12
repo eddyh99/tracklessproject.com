@@ -55,7 +55,7 @@
         <img src="<?=base_url()?>assets/images/mission-background.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay p-2">
             <div class="row justify-content-center">
-                <div class="col-7 text-center mt-2 mt-md-3 mt-lg-5">
+                <div class="col-7 text-center mt-2 mt-sm-4 mt-md-3 mt-lg-5">
                     <span style="font-size:3.5vw;font-weight: bold;">Mission</span>
                 </div>
                 <div class="col-7 mt-3 mt-md-3 mt-lg-5 text-center">
@@ -77,7 +77,7 @@
         <img src="<?=base_url()?>assets/images/services-background.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay">
             <div class="row">
-                <div class="col-12 text-center mt-0 mt-md-3 mt-lg-5">
+                <div class="col-12 text-center mt-0 mt-sm-3 mt-md-3 mt-lg-5">
                     <span style="font-size:3.5vw;font-weight: bold;">Services</span>
                 </div>
             </div>
@@ -91,19 +91,19 @@
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-4"><img src="<?=base_url()?>assets/images/tc-chat.png"
+                    <label class="cursor-pointer" for="item-2"><img src="<?=base_url()?>assets/images/tc-chat.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-5"><img src="<?=base_url()?>assets/images/tc-company.png"
+                    <label class="cursor-pointer" for="item-3"><img src="<?=base_url()?>assets/images/tc-company.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-2"><img src="<?=base_url()?>assets/images/tc-bank.png"
+                    <label class="cursor-pointer" for="item-4"><img src="<?=base_url()?>assets/images/tc-bank.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-3"><img src="<?=base_url()?>assets/images/tc-crypto.png"
+                    <label class="cursor-pointer" for="item-5"><img src="<?=base_url()?>assets/images/tc-crypto.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
