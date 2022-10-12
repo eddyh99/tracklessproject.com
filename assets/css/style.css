@@ -449,8 +449,7 @@ img.carousel {
         opacity: 0;
         z-index: 0;
     }
-<<<<<<< HEAD
-    
+
     .card-carousel {
         position: absolute;
         width: 90%;
@@ -465,10 +464,6 @@ img.carousel {
         border-radius: 40px;
         background: #000;
     }
-    
-
-=======
->>>>>>> frontend-tracklessproject.com
 }
 
 @media only screen and (min-width: 412px) {
@@ -563,7 +558,6 @@ img.carousel {
         z-index: 0;
     }
 
-<<<<<<< HEAD
     .card-carousel {
         position: absolute;
         width: 90%;
@@ -579,7 +573,6 @@ img.carousel {
         background: #000;
     }
 
-=======
     .translate-text {
         width: 100%;
         max-width: 810px;
@@ -600,7 +593,6 @@ img.carousel {
         margin: auto;
         font-size: 24pt;
     }
->>>>>>> frontend-tracklessproject.com
 }
 
 @media only screen and (min-width: 810px) {
@@ -705,11 +697,7 @@ img.carousel {
 
     .font-lock {
         font-size: 22px !important;
-<<<<<<< HEAD
         line-height:32px;
-=======
-        line-height: 32px;
->>>>>>> frontend-tracklessproject.com
     }
 
     .font-carousel {
