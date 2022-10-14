@@ -1,11 +1,11 @@
 <div class="wrapper" style="background:#000">
     <div class="card nopadding removecolor">
-        <img src="<?=base_url()?>assets/images/abovebanner.png" class="card-img img-fluid col-12">
+        <img src="<?= base_url() ?>assets/images/abovebanner.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay">
             <div class="col-12 d-none d-md-block">
                 <div class="row nopadding">
                     <div class="col-6 nopadding">
-                        <img src="<?=base_url()?>assets/images/logo-new.png" class="img-fluid col-6">
+                        <img src="<?= base_url() ?>assets/images/logo-new.png" class="img-fluid col-6">
                     </div>
                     <div class="col-6 f-almarai">
                         <div class="text-end">
@@ -19,7 +19,7 @@
             <div class="col-12 d-block d-md-none">
                 <div class="row nopadding">
                     <div class="col-12 text-center nopadding">
-                        <img src="<?=base_url()?>assets/images/logo.png" class="img-fluid col-4">
+                        <img src="<?= base_url() ?>assets/images/logo.png" class="img-fluid col-4">
                     </div>
                     <div class="row text-center">
                         <div class="col-12 f-almarai">
@@ -39,7 +39,7 @@
                     <br><span class="text-white">with</span>
                 </div>
                 <div class="col-12 text-center">
-                    <img src="<?=base_url()?>assets/images/Group1000002746.png" class="img-fluid col-6 col-md-4">
+                    <img src="<?= base_url() ?>assets/images/Group1000002746.png" class="img-fluid col-6 col-md-4">
                 </div>
                 <!-- <div class="col-12 text-center mt-3">
                     <div class="container">
@@ -52,14 +52,14 @@
         </div>
     </div>
     <div id="mission" class="card nopadding removecolor card-special-responsive">
-        <img src="<?=base_url()?>assets/images/mission-background.png" class="card-img img-fluid col-12">
+        <img src="<?= base_url() ?>assets/images/mission-background.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay p-2">
             <div class="row justify-content-center">
                 <div class="col-7 text-center mt-2 mt-sm-4 mt-md-3 mt-lg-5">
                     <span style="font-size:3.5vw;font-weight: bold;">Mission</span>
                 </div>
                 <div class="col-7 mt-3 mt-md-3 mt-lg-5 text-center">
-                    <img src="<?=base_url()?>assets/images/lock.png" class="img-fluid img-lock">
+                    <img src="<?= base_url() ?>assets/images/lock.png" class="img-fluid img-lock">
                 </div>
                 <div class="col-10 col-md-7 col-lg-7 text-center mt-3 mt-md-3 mt-lg-5 f-poppins font-lock">
                     Privacy, Security, Financial Anonymity, Management and Anonymous Custody of Crypto and Low
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div id="services" class="card nopadding removecolor">
-        <img src="<?=base_url()?>assets/images/services-background.png" class="card-img img-fluid col-12">
+        <img src="<?= base_url() ?>assets/images/services-background.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay">
             <div class="row">
                 <div class="col-12 text-center mt-0 mt-sm-3 mt-md-3 mt-lg-5">
@@ -87,27 +87,27 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-1"><img src="<?=base_url()?>assets/images/tc-mail.png"
+                    <label class="cursor-pointer" for="item-1"><img src="<?= base_url() ?>assets/images/tc-mail.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-2"><img src="<?=base_url()?>assets/images/tc-chat.png"
+                    <label class="cursor-pointer" for="item-2"><img src="<?= base_url() ?>assets/images/tc-chat.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-3"><img src="<?=base_url()?>assets/images/tc-company.png"
+                    <label class="cursor-pointer" for="item-3"><img src="<?= base_url() ?>assets/images/tc-company.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-4"><img src="<?=base_url()?>assets/images/tc-bank.png"
+                    <label class="cursor-pointer" for="item-4"><img src="<?= base_url() ?>assets/images/tc-bank.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-5"><img src="<?=base_url()?>assets/images/tc-crypto.png"
+                    <label class="cursor-pointer" for="item-5"><img src="<?= base_url() ?>assets/images/tc-crypto.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-6"><img src="<?=base_url()?>assets/images/tc-money.png"
+                    <label class="cursor-pointer" for="item-6"><img src="<?= base_url() ?>assets/images/tc-money.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
             </div>
@@ -115,7 +115,7 @@
     </div>
 
     <div class="card nopadding removecolor">
-        <!-- <img src="<?=base_url()?>assets/images/services-background.png" class="card-img img-fluid col-12"> -->
+        <!-- <img src="<?= base_url() ?>assets/images/services-background.png" class="card-img img-fluid col-12"> -->
         <div class="card-body">
             <div class="row">
                 <div class="col-7 mx-auto text-center body-carousel">
@@ -134,7 +134,7 @@
                                 <label class="carousel__control carousel__control--forward" for="item-2"></label>
                             </div>
                             <div class="col-12">
-                                <img src="<?=base_url()?>assets/images/tc-mail-new.png" class="img-fluid col-5">
+                                <img src="<?= base_url() ?>assets/images/tc-mail-new.png" class="img-fluid col-5">
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="row">
@@ -157,7 +157,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?=base_url()?>assets/images/tc-chat-new.png" class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-chat-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -182,7 +182,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?=base_url()?>assets/images/tc-company-new.png" class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-company-new.png"
+                                        class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -205,7 +206,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?=base_url()?>assets/images/tc-bank-new.png" class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-bank-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -230,7 +231,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?=base_url()?>assets/images/tc-crypto-new.png" class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-crypto-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -254,7 +255,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?=base_url()?>assets/images/tc-money-new.png" class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-money-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -281,44 +282,37 @@
             </div>
         </div>
     </div>
-
     <div class="card removecolor">
         <div class="card-body">
             <div class="row m-2 m-md-5 text-footer">
                 <div class="col-4">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="<?=base_url()?>assets/images/logo.png" class="img-fluid col-8">
+                    <img src="<?= base_url(); ?>assets/images/tracklessproject.png" class="footer-logo">
+                    <div class="d-flex flex-wrap icon-sosmed">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/fb-icon.png" class="p-1">
                         </div>
-                        <div class="col-12 icon-sosmed">
-                            <div class="row mt-3">
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/fb-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/twitter-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/ig-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/c-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/linkedin-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/tiktok-icon.png" class="p-1">
-                                </div>
-                                <div class="col-2 m-md-2 m-lg-2">
-                                    <img src="<?=base_url()?>assets/images/youtube-icon.png" class="p-1">
-                                </div>
-                            </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/twitter-icon.png" class="p-1">
+                        </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/ig-icon.png" class="p-1">
+                        </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/c-icon.png" class="p-1">
+                        </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/linkedin-icon.png" class="p-1">
+                        </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/tiktok-icon.png" class="p-1">
+                        </div>
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                            <img src="<?= base_url() ?>assets/images/youtube-icon.png" class="p-1">
                         </div>
                     </div>
                 </div>
                 <div class="col-4 nopadding">
-                    <img src="<?=base_url()?>assets/images/trackless-new.png" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/images/trackless-new.png" class="img-fluid">
                 </div>
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
                     Contact Us
@@ -330,6 +324,17 @@
             </div>
         </div>
     </div>
+</div>
+
+<style>
+.carousel-indicators {
+    display: none;
+}
+</style>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 <style>
