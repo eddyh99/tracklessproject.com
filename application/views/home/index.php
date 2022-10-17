@@ -87,34 +87,40 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-1"><img src="<?= base_url() ?>assets/images/tc-mail.png"
+                    <label class="cursor-pointer" id="goingtocarousel1" for="item-1">
+                        <img src="<?= base_url() ?>assets/images/tc-mail.png" class="img-fluid pe-3 pe-md-4 pe-lg-5">
+                    </label>
+                </div>
+                <div class="col-4 text-center">
+                    <label class="cursor-pointer" id="goingtocarousel2" for="item-2"><img
+                            src="<?= base_url() ?>assets/images/tc-chat.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-2"><img src="<?= base_url() ?>assets/images/tc-chat.png"
+                    <label class="cursor-pointer" id="goingtocarousel3" for="item-3"><img
+                            src="<?= base_url() ?>assets/images/tc-company.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-3"><img src="<?= base_url() ?>assets/images/tc-company.png"
+                    <label class="cursor-pointer" id="goingtocarousel4" for="item-4"><img
+                            src="<?= base_url() ?>assets/images/tc-bank.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-4"><img src="<?= base_url() ?>assets/images/tc-bank.png"
+                    <label class="cursor-pointer" id="goingtocarousel5" for="item-5"><img
+                            src="<?= base_url() ?>assets/images/tc-crypto.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-5"><img src="<?= base_url() ?>assets/images/tc-crypto.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
-                </div>
-                <div class="col-4 text-center">
-                    <label class="cursor-pointer" for="item-6"><img src="<?= base_url() ?>assets/images/tc-money.png"
+                    <label class="cursor-pointer" id="goingtocarousel6" for="item-6"><img
+                            src="<?= base_url() ?>assets/images/tc-money.png"
                             class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card nopadding removecolor">
+    <div class="card nopadding removecolor" id="caroseldown">
         <!-- <img src="<?= base_url() ?>assets/images/services-background.png" class="card-img img-fluid col-12"> -->
         <div class="card-body">
             <div class="row">
@@ -146,7 +152,8 @@
                                 </div>
                             </div>
                             <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                <a href="https://tracklessmail.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                <a href="https://tracklessmail.com" class="btn btngreen"
+                                    style="font-size:1.5vw">Enter</a>
                             </div>
                         </label>
 
@@ -170,7 +177,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesschat.com" class="btn btngreen"
+                                        style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -194,7 +202,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesscompany.com" class="btn btngreen"
+                                        style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -219,7 +228,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklessbank.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklessbank.com" class="btn btngreen"
+                                        style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -243,7 +253,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesscrypto.com" class="btn btngreen"
+                                        style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -272,7 +283,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklessmoney.com" class="btn btngreen"
+                                        style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -288,25 +300,25 @@
                 <div class="col-4">
                     <img src="<?= base_url(); ?>assets/images/tracklessproject.png" class="footer-logo">
                     <div class="d-flex flex-wrap icon-sosmed">
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/fb-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/twitter-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/ig-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/c-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/linkedin-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/tiktok-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/youtube-icon.png" class="p-1">
                         </div>
                     </div>
@@ -317,29 +329,18 @@
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
                     Contact Us
                 </div>
-                <div translate="no" class="d-flex flex-wrap justify-content-end footer-menus">
-                    <a href="#" class="">TracklessProject</a> |
+                <div class="col-12 text-end f-inter t-bottom footer-menus" style="font-size:2vh" translate="no">
+                    <a href="https://tracklessproject.com" class="active">TracklessProject</a> |
                     <a href="https://tracklessmail.com" class="">TracklessMail</a> |
-                    <a href="#" class="">TracklessChat</a> |
-                    <a href="#" class="">TracklessCompany</a> |
-                    <a href="https://tracklessbank.com" class="active">TracklessBank</a> |
-                    <a href="#" class="">TracklessCrypto</a> |
-                    <a href="#" class="">TracklessMoney</a>
+                    <a href="https://tracklesschat.com" class="">TracklessChat</a> |
+                    <a href="https://tracklesscompany.com" class="">TracklessCompany</a> |
+                    <a href="https://tracklessbank.com" class="">TracklessBank</a> |
+                    <a href="https://tracklesscrypto.com" class="">TracklessCrypto</a> |
+                    <a href="https://tracklessmoney.com" class="">TracklessMoney</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<style>
-.carousel-indicators {
-    display: none;
-}
-</style>
-</div>
-</div>
-</div>
-</div>
 </div>
 
 <style>

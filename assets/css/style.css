@@ -362,6 +362,40 @@ img.carousel {
 
 /* Carousel */
 
+.footer-menus {
+    padding-top: 5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-menus a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 .5rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    transition: all ease .4s;
+}
+
+.footer-menus a:hover {
+    text-decoration: none;
+    color: #00DD9C;
+    transition: all ease .4s;
+}
+
+.footer-menus a.active {
+    text-decoration: none;
+    color: #00DD9C;
+    font-weight: 500;
+    transition: all ease .4s;
+}
+
+.footer-menus a.active:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: all ease .4s;
+}
+
 @media only screen and (max-width: 411px) {
     .slider-responsive {
         font-size: 3vw !important;
@@ -377,11 +411,11 @@ img.carousel {
     }
 
     .img-lock {
-        height: 30px !important;
+        height: 25px !important;
     }
 
     .font-lock {
-        font-size: 10px !important;
+        font-size: 7px !important;
     }
 
     .card-special-responsive {
@@ -415,7 +449,7 @@ img.carousel {
     }
 
     .footer-logo {
-        width: 100px;
+        width: 75px;
     }
 
     .carousel__control {
@@ -472,6 +506,39 @@ img.carousel {
         border-radius: 40px;
         background: #000;
     }
+
+    .footer-menus {
+        padding-top: 3rem;
+    }
+
+    .footer-menus a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 5px;
+        margin: .5rem .5rem;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a:hover {
+        text-decoration: none;
+        color: #00DD9C;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active {
+        text-decoration: none;
+        color: #00DD9C;
+        font-weight: 500;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all ease .4s;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -510,7 +577,7 @@ img.carousel {
     }
 
     .body-carousel {
-        height: 250px !important;
+        height: 300px !important;
     }
 
     .btngreen {
@@ -544,8 +611,8 @@ img.carousel {
     }
 
     .icon-sosmed img {
-        height: 20px !important;
-        width: 20px !important;
+        height: 25px !important;
+        width: 25px !important;
     }
 
     #item-1:checked~.cards #song-6,
@@ -591,6 +658,39 @@ img.carousel {
         margin: auto;
         font-size: 12pt;
     }
+
+    .footer-menus {
+        padding-top: 3rem;
+    }
+
+    .footer-menus a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0 .5rem;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a:hover {
+        text-decoration: none;
+        color: #00DD9C;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active {
+        text-decoration: none;
+        color: #00DD9C;
+        font-weight: 500;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all ease .4s;
+    }
 }
 
 
@@ -608,6 +708,39 @@ img.carousel {
         max-width: 810px;
         margin: auto;
         font-size: 24pt;
+    }
+
+    .footer-menus {
+        padding-top: 3rem;
+    }
+
+    .footer-menus a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0 .5rem;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a:hover {
+        text-decoration: none;
+        color: #00DD9C;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active {
+        text-decoration: none;
+        color: #00DD9C;
+        font-weight: 500;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all ease .4s;
     }
 }
 
@@ -704,6 +837,39 @@ img.carousel {
     .footer-logo {
         width: 200px;
     }
+
+    .footer-menus {
+        padding-top: 3rem;
+    }
+
+    .footer-menus a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0 .5rem;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a:hover {
+        text-decoration: none;
+        color: #00DD9C;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active {
+        text-decoration: none;
+        color: #00DD9C;
+        font-weight: 500;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all ease .4s;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -764,6 +930,39 @@ img.carousel {
     .icon-sosmed img {
         height: 50px !important;
         width: 50px !important;
+    }
+
+    .footer-menus {
+        padding-top: 5rem;
+    }
+
+    .footer-menus a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0 .5rem;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a:hover {
+        text-decoration: none;
+        color: #00DD9C;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active {
+        text-decoration: none;
+        color: #00DD9C;
+        font-weight: 500;
+        transition: all ease .4s;
+    }
+
+    .footer-menus a.active:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all ease .4s;
     }
 }
 
