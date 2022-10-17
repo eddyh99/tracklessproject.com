@@ -146,7 +146,7 @@
                                 </div>
                             </div>
                             <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                <a href="https://tracklessmail.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                             </div>
                         </label>
 
@@ -219,7 +219,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="#" class="btn btngreen" style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklessbank.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -317,9 +317,14 @@
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
                     Contact Us
                 </div>
-                <div class="col-12 text-end f-inter t-bottom" style="font-size:2vh" translate="no">
-                    TracklessProject | TracklessMail | TracklessChat | TracklessCompany | TracklessBank |
-                    TracklessCrypto | TracklessMoney
+                <div translate="no" class="d-flex flex-wrap justify-content-end footer-menus">
+                    <a href="#" class="">TracklessProject</a> |
+                    <a href="https://tracklessmail.com" class="">TracklessMail</a> |
+                    <a href="#" class="">TracklessChat</a> |
+                    <a href="#" class="">TracklessCompany</a> |
+                    <a href="https://tracklessbank.com" class="active">TracklessBank</a> |
+                    <a href="#" class="">TracklessCrypto</a> |
+                    <a href="#" class="">TracklessMoney</a>
                 </div>
             </div>
         </div>
