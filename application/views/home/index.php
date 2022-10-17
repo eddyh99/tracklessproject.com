@@ -288,25 +288,25 @@
                 <div class="col-4">
                     <img src="<?= base_url(); ?>assets/images/tracklessproject.png" class="footer-logo">
                     <div class="d-flex flex-wrap icon-sosmed">
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/fb-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/twitter-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/ig-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/c-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/linkedin-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/tiktok-icon.png" class="p-1">
                         </div>
-                        <div class="me-md-2 me-lg-2 me-xl-3 mt-3">
+                        <div class="me-md-2 me-lg-2 me-xl-3 mt-1 mt-sm-3">
                             <img src="<?= base_url() ?>assets/images/youtube-icon.png" class="p-1">
                         </div>
                     </div>
@@ -317,24 +317,18 @@
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
                     Contact Us
                 </div>
-                <div class="col-12 text-end f-inter t-bottom" style="font-size:2vh" translate="no">
-                    TracklessProject | TracklessMail | TracklessChat | TracklessCompany | TracklessBank |
-                    TracklessCrypto | TracklessMoney
+                <div class="col-12 text-end f-inter t-bottom footer-menus" style="font-size:2vh" translate="no">
+                    <a href="https://tracklessproject.com" class="active">TracklessProject</a> |
+                    <a href="https://tracklessmail.com" class="">TracklessMail</a> |
+                    <a href="https://tracklesschat.com" class="">TracklessChat</a> |
+                    <a href="https://tracklesscompany.com" class="">TracklessCompany</a> |
+                    <a href="https://tracklessbank.com" class="">TracklessBank</a> |
+                    <a href="https://tracklesscrypto.com" class="">TracklessCrypto</a> |
+                    <a href="https://tracklessmoney.com" class="">TracklessMoney</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<style>
-.carousel-indicators {
-    display: none;
-}
-</style>
-</div>
-</div>
-</div>
-</div>
 </div>
 
 <style>
