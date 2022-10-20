@@ -18,7 +18,10 @@
                 translate function
             </p>
             <p>
-                <a class="translate-link" href="#">www.linkkegooglechrome.</a>
+                <a class="translate-link" href="https://www.google.com/">
+                    <b class="g-b">G</b><b class="g-r">o</b><b class="g-y">o</b><b class="g-b">g</b><b
+                        class="g-g">l</b><b class="g-r">e</b> Chrome
+                </a>
             </p>
         </div>
     </div>
