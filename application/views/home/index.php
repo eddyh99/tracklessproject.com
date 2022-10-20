@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4 mt-md-0 mt-sm-0">
+            <div class="row mt-3 mt-sm-5">
                 <div class="col-12 text-center greentext slider-responsive" style="font-size:3.5vw;font-weight:700">
                     Our privacy <span class="text-white">is being attacked<br> on multiple fronts...</span>
                     <br>Protect your anonimity

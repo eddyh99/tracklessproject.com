@@ -17,6 +17,22 @@ a:active {
     text-decoration: none;
 }
 
+.g-b {
+    color: #4285F4;
+}
+
+.g-r {
+    color: #DB4437;
+}
+
+.g-y {
+    color: #F4B400;
+}
+
+.g-g {
+    color: #0F9D58;
+}
+
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
@@ -353,6 +369,7 @@ img.carousel {
 }
 
 .font-carousel {
+    font-family: "Poppins";
     line-height: 3vw;
 }
 
