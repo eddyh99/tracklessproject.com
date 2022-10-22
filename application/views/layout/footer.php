@@ -8,6 +8,15 @@
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
     <script src="<?= base_url(); ?>assets/js/js.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YVQVX5458"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4YVQVX5458');
+</script>
     <?php
     if (isset($extra)) {
         $this->load->view($extra);
