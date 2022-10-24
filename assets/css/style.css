@@ -594,7 +594,7 @@ img.carousel {
     }
 
     .body-carousel {
-        height: 300px !important;
+        height: 350px !important;
     }
 
     .btngreen {
@@ -713,7 +713,7 @@ img.carousel {
 
 @media only screen and (min-width: 700px) {
     .body-carousel {
-        height: 300px !important;
+        height: 350px !important;
     }
 
     .card-special-responsive {
@@ -788,7 +788,7 @@ img.carousel {
     }
 
     .body-carousel {
-        height: 400px !important;
+        height: 475px !important;
     }
 
     .btngreen {
@@ -916,7 +916,7 @@ img.carousel {
     }
 
     .body-carousel {
-        height: 600px !important;
+        height: 675px !important;
     }
 
     .text-footer .t-bottom {
@@ -1010,7 +1010,7 @@ img.carousel {
     }
 
     .body-carousel {
-        height: 700px !important;
+        height: 800px !important;
     }
 
     .text-footer .t-bottom {
@@ -1042,4 +1042,10 @@ img.carousel {
         height: 60px !important;
         width: 60px !important;
     }
+}
+
+.tracklessproject-footer {
+    background: #0D0D0D;
+    border-top: 1px solid #00DD9C;
+    border-bottom: 1px solid #00DD9C;
 }
