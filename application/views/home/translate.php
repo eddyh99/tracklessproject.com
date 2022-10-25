@@ -1,4 +1,4 @@
-<div class="container-fluid p-5">
+<div class="container-fluid py-5 px-5 px-sm-5 p-sm-5">
     <a href="<?= base_url('auth'); ?>" class="btn-back-green">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-left"
             viewBox="0 0 18 16">
@@ -18,7 +18,7 @@
                 translate function
             </p>
             <p>
-                <a class="translate-link" href="https://www.google.com/">
+                <a class="translate-link" href="https://www.google.com/chrome/">
                     <b class="g-b">G</b><b class="g-r">o</b><b class="g-y">o</b><b class="g-b">g</b><b
                         class="g-g">l</b><b class="g-r">e</b> Chrome
                 </a>
