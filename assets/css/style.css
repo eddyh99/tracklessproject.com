@@ -414,6 +414,34 @@ img.carousel {
 }
 
 @media only screen and (max-width: 411px) {
+    .btn-back-green {
+        border: none;
+        border-radius: 100px;
+        background: #00DD9C !important;
+        color: #fff !important;
+        padding: .5rem .125rem;
+    }
+
+    .btn-back-green svg {
+        height: 20px;
+    }
+
+    .translate-link {
+        color: #fff;
+        text-decoration: underline #fff !important;
+    }
+
+    .translate-link:hover {
+        color: #fff;
+    }
+
+    .translate-text {
+        width: 100%;
+        max-width: 810px;
+        margin: auto;
+        font-size: 11px;
+    }
+
     .slider-responsive {
         font-size: 3vw !important;
     }
@@ -559,6 +587,34 @@ img.carousel {
 }
 
 @media only screen and (min-width: 412px) {
+    .btn-back-green {
+        border: none;
+        border-radius: 100px;
+        background: #00DD9C !important;
+        color: #fff !important;
+        padding: .5rem .125rem;
+    }
+
+    .btn-back-green svg {
+        height: 20px;
+    }
+
+    .translate-link {
+        color: #fff;
+        text-decoration: underline #fff !important;
+    }
+
+    .translate-link:hover {
+        color: #fff;
+    }
+
+    .translate-text {
+        width: 100%;
+        max-width: 810px;
+        margin: auto;
+        font-size: 11px;
+    }
+
     .slider-responsive {
         font-size: 3vw !important;
     }
@@ -890,6 +946,7 @@ img.carousel {
 }
 
 @media only screen and (min-width: 1280px) {
+
     .slider-responsive {
         font-size: 3.5vw !important;
     }
