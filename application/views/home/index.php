@@ -1,6 +1,6 @@
 <div class="wrapper" style="background:#000">
     <div class="card nopadding removecolor">
-        <img src="<?= base_url() ?>assets/images/abovebanner.png" class="card-img img-fluid col-12">
+        <img src="<?= base_url() ?>assets/images/bg.png" class="card-img img-fluid col-12">
         <div class="card-img-overlay">
             <div class="col-12 d-none d-md-block">
                 <div class="row nopadding">
@@ -66,7 +66,7 @@
                     Taxation, are the main points of Trackless project.
                 </div>
                 <div class="col-7 mt-2 mt-md-3 mt-lg-5 text-center">
-                    <a href="<?= base_url('auth/guideline'); ?>" class="btn btngreen"
+                    <a href="<?= base_url('auth/guideline'); ?>" class="btn btngreen shadow-none"
                         style="font-size:1.5vw;font-weight: bold;">Guide
                         Line</a>
                 </div>
@@ -294,7 +294,7 @@
             </div>
         </div>
     </div>
-    <div class="card removecolor">
+    <div class="card removecolor tracklessproject-footer">
         <div class="card-body">
             <div class="row m-2 m-md-5 text-footer">
                 <div class="col-4">
