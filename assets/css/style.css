@@ -413,7 +413,23 @@ img.carousel {
     transition: all ease .4s;
 }
 
+.t-contact>h2,
+.t-contact>span,
+  .t-contact>span a {
+  margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 30px;
+}
+  .t-contact>span a {
+    color: #a5a5a5;
+}
+
 @media only screen and (max-width: 411px) {
+    
+  .t-contact>span,
+  .t-contact>span a {
+    font-size: 11px;
+  }
     .btn-back-green {
         border: none;
         border-radius: 100px;
@@ -487,10 +503,6 @@ img.carousel {
 
     .text-footer .t-bottom {
         font-size: 7px !important;
-    }
-
-    .text-footer .t-contact {
-        font-size: 12px !important;
     }
 
     .footer-logo {
@@ -587,6 +599,10 @@ img.carousel {
 }
 
 @media only screen and (min-width: 412px) {
+    .t-contact>span,
+  .t-contact>span a {
+      font-size: 11px;
+    }
     .btn-back-green {
         border: none;
         border-radius: 100px;
@@ -660,10 +676,6 @@ img.carousel {
 
     .text-footer .t-bottom {
         font-size: 7px !important;
-    }
-
-    .text-footer .t-contact {
-        font-size: 12px !important;
     }
 
     .footer-logo {
@@ -768,6 +780,11 @@ img.carousel {
 
 
 @media only screen and (min-width: 700px) {
+    .t-contact>span,
+  .t-contact>span a {
+      font-size: 14px;
+    }
+
     .body-carousel {
         height: 350px !important;
     }
@@ -818,6 +835,10 @@ img.carousel {
 }
 
 @media only screen and (min-width: 810px) {
+  .t-contact>span,
+  .t-contact>span a {
+    font-size: 16px;
+  }
     .slider-responsive {
         font-size: 3.5vw !important;
     }
@@ -854,10 +875,6 @@ img.carousel {
 
     .text-footer .t-bottom {
         font-size: 12px !important;
-    }
-
-    .text-footer .t-contact {
-        font-size: 22px !important;
     }
 
     .carousel__control {
@@ -980,10 +997,6 @@ img.carousel {
         font-size: 16px !important;
     }
 
-    .text-footer .t-contact {
-        font-size: 36px !important;
-    }
-
     .carousel__control {
         height: 30px;
         width: 30px;
@@ -1072,10 +1085,6 @@ img.carousel {
 
     .text-footer .t-bottom {
         font-size: 16px !important;
-    }
-
-    .text-footer .t-contact {
-        font-size: 36px !important;
     }
 
     .carousel__control {

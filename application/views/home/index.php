@@ -327,7 +327,12 @@
                     <img src="<?= base_url() ?>assets/images/trackless-new.png" class="img-fluid">
                 </div>
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
-                    Contact Us
+                    <h2>Contact Us</h2>
+                    <span>
+                        <a href="mailto:tracklessbank@tracklessmail.com" class="text-decoration-none">
+                            tracklessbank@tracklessmail.com
+                        </a>
+                    </span>
                 </div>
                 <div class="col-12 text-end f-inter t-bottom footer-menus" style="font-size:2vh" translate="no">
                     <a href="https://tracklessproject.com" class="active">TracklessProject</a> |
