@@ -329,8 +329,8 @@
                 <div class="col-4 f-inter text-center t-contact" style="font-size:4vh">
                     <h2>Contact Us</h2>
                     <span>
-                        <a href="mailto:tracklessbank@tracklessmail.com" class="text-decoration-none">
-                            tracklessbank@tracklessmail.com
+                        <a href="mailto:tracklessproject@tracklessmail.com" class="text-decoration-none">
+                            tracklessproject@tracklessmail.com
                         </a>
                     </span>
                 </div>
