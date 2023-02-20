@@ -66,8 +66,7 @@
                     Taxation, are the main points of Trackless project.
                 </div>
                 <div class="col-7 mt-2 mt-md-3 mt-lg-5 text-center">
-                    <a href="<?= base_url('auth/guideline'); ?>" class="btn btngreen shadow-none"
-                        style="font-size:1.5vw;font-weight: bold;">Guide
+                    <a href="<?= base_url('auth/guideline'); ?>" class="btn btngreen shadow-none" style="font-size:1.5vw;font-weight: bold;">Guide
                         Line</a>
                 </div>
             </div>
@@ -92,29 +91,19 @@
                     </label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" id="goingtocarousel2" for="item-2"><img
-                            src="<?= base_url() ?>assets/images/tc-chat.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
+                    <label class="cursor-pointer" id="goingtocarousel2" for="item-2"><img src="<?= base_url() ?>assets/images/tc-chat.png" class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" id="goingtocarousel3" for="item-3"><img
-                            src="<?= base_url() ?>assets/images/tc-company.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
+                    <label class="cursor-pointer" id="goingtocarousel3" for="item-3"><img src="<?= base_url() ?>assets/images/tc-company.png" class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" id="goingtocarousel4" for="item-4"><img
-                            src="<?= base_url() ?>assets/images/tc-bank.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
+                    <label class="cursor-pointer" id="goingtocarousel4" for="item-4"><img src="<?= base_url() ?>assets/images/tc-bank.png" class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" id="goingtocarousel5" for="item-5"><img
-                            src="<?= base_url() ?>assets/images/tc-crypto.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
+                    <label class="cursor-pointer" id="goingtocarousel5" for="item-5"><img src="<?= base_url() ?>assets/images/tc-crypto.png" class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
                 <div class="col-4 text-center">
-                    <label class="cursor-pointer" id="goingtocarousel6" for="item-6"><img
-                            src="<?= base_url() ?>assets/images/tc-money.png"
-                            class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
+                    <label class="cursor-pointer" id="goingtocarousel6" for="item-6"><img src="<?= base_url() ?>assets/images/tc-money.png" class="img-fluid pe-3 pe-md-4 pe-lg-5"></label>
                 </div>
             </div>
         </div>
@@ -145,15 +134,13 @@
                             <div class="col-12 mt-3">
                                 <div class="row">
                                     <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                        Protect your privacy and your anonimity thanks to <span
-                                            class="greentext">TracklessMail</span>.
+                                        Protect your privacy and your anonimity thanks to <span class="greentext">TracklessMail</span>.
                                         Open your untrackable anonimous mail in few easy steps.
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                <a href="https://tracklessmail.com" class="btn btngreen"
-                                    style="font-size:1.5vw">Enter</a>
+                                <a href="https://tracklessmail.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                             </div>
                         </label>
 
@@ -169,16 +156,14 @@
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                            Communicate and interact with your contact using <span
-                                                class="greentext">TracklessChat</span>, a messaging
+                                            Communicate and interact with your contact using <span class="greentext">TracklessChat</span>, a messaging
                                             DApp that can be connected to any wallet powered by TracklessMoney.
                                             No trackable, decentralized, and distributed that guarantees your privacy
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklesschat.com" class="btn btngreen"
-                                        style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesschat.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -190,8 +175,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <img src="<?= base_url() ?>assets/images/tc-company-new.png"
-                                        class="img-fluid col-5">
+                                    <img src="<?= base_url() ?>assets/images/tc-company-new.png" class="img-fluid col-5">
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
@@ -202,8 +186,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklesscompany.com" class="btn btngreen"
-                                        style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesscompany.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -220,16 +203,13 @@
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                            Create your online bank for free thanks to the integrated <span
-                                                class="greentext">TracklessBank</span>
-                                            technology, and replace the old banking institution.
+                                            Create your online bank thanks to the integrated <span class="greentext">TracklessBank</span> technology, and replace the old banking institution.
                                             Eliminate reliance on old-fashioned and restrictive banking systems.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklessbank.com" class="btn btngreen"
-                                        style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklessbank.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -246,15 +226,12 @@
                                 <div class="col-12 mt-3">
                                     <div class="row">
                                         <div class="col-10 col-lg-8 mx-auto font-carousel">
-                                            Open your own crypto exchange for free and give to your customers the
-                                            opportunity to secure, buy, sell and exchange crypto with FIAT, anonymously
-                                            without KYC and AML
+                                            Open your own crypto exchange and give to your customers the opportunity to secure, buy, sell and exchange crypto with FIAT, anonymously without KYC and AML
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklesscrypto.com" class="btn btngreen"
-                                        style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklesscrypto.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -283,8 +260,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 mt-2 mt-md-3 mt-lg-4 mb-5">
-                                    <a href="https://tracklessmoney.com" class="btn btngreen"
-                                        style="font-size:1.5vw">Enter</a>
+                                    <a href="https://tracklessmoney.com" class="btn btngreen" style="font-size:1.5vw">Enter</a>
                                 </div>
                             </div>
                         </label>
@@ -349,7 +325,7 @@
 </div>
 
 <style>
-.carousel-indicators {
-    display: none;
-}
+    .carousel-indicators {
+        display: none;
+    }
 </style>
